@@ -1,0 +1,43 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Gradle : org.example : BT-1.0-SNAPSHOT.war (exploded)">
+    <output-path>$PROJECT_DIR$/build/libs/exploded/BT-1.0-SNAPSHOT.war</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$">
+        <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQoNCg==</manifest>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/build/libs/exploded/BT-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="BT.main/web/Web Gradle : BT-1.0-SNAPSHOT.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="BT.main" />
+          <element id="dir-copy" path="$PROJECT_DIR$/build/resources/main" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: org.springframework:spring-webmvc:5.3.2" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-context:5.3.2" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-web:5.3.2" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-beans:5.3.2" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-core:5.3.2" />
+          <element id="library" level="project" name="Gradle: org.thymeleaf:thymeleaf-spring5:3.0.11.RELEASE" />
+          <element id="library" level="project" name="Gradle: nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect:2.5.2" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-aop:5.3.2" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-expression:5.3.2" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-jcl:5.3.2" />
+          <element id="library" level="project" name="Gradle: org.thymeleaf:thymeleaf:3.0.11.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.slf4j:slf4j-api:1.7.25" />
+          <element id="library" level="project" name="Gradle: org.codehaus.groovy:groovy:2.5.11" />
+          <element id="library" level="project" name="Gradle: org.attoparser:attoparser:2.0.5.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.unbescape:unbescape:1.1.6.RELEASE" />
+          <element id="library" level="project" name="Gradle: nz.net.ultraq.thymeleaf:thymeleaf-expression-processor:1.2.0" />
+          <element id="library" level="project" name="Gradle: nz.net.ultraq.extensions:groovy-extensions:0.3.0" />
+          <element id="library" level="project" name="Gradle: ognl:ognl:3.1.12" />
+          <element id="library" level="project" name="Gradle: org.javassist:javassist:3.20.0-GA" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
